@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rutik Gagare - Web Developer, Programmer</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar sidebargo">
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/intro.html">My Intro</a></li>
+                    <li><a href="/connect.html">Connect</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    
+        <div class="main" id="change_mode">
+
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="Light()">Light
+                </button>
+                <button type="button" class="toggle-btn" onclick="Dark()">Dark</button>
+            </div>
+
+            <div class="hamburger">
+                <img class="ham" src="ham.png" alt="" onclick="open_sidebar()">
+                <img class="cross" src="cross.png" alt="">
+            </div>
+               <div class="intro" >
+                <h2>About me</h2>
+                <p>My name is Rutik Gagare.I was born and raised in Sangamner.I like to travel. I believe travelling gives you a new perspective to everything. You get to know a lot about the different cultures, the cuisines, their history, the language and all the small unique things every place has to offer.</p>
+                <h2>My Skills</h2>
+
+                <div class="skillcontainer">
+                    <div class="skill">
+                        <label for="pogress"> Python </label><br>
+                        <progress id="progress" value="78" max="100"> 32% </progress>
+                    </div>
+
+                    <div class="skill">
+                        <label for="progress"> CPP </label><br>
+                        <progress id="progress" value="68" max="100"> 32% </progress>
+                    </div>
+
+                    <div class="skill">
+                        <label for="progress"> HTML </label><br>
+                        <progress id="progress" value="80" max="100"> 32% </progress>
+                    </div>
+
+                    <div class="skill">
+                        <label for="progress"> CSS </label><br>
+                        <progress id="progress" value="75" max="100"> 32% </progress>
+                    </div>
+
+                    <div class="skill">
+                        <label for="progress"> JavaScript </label><br>
+                        <progress id="progress" value="79" max="100"> 32% </progress>
+                    </div>  
+                </div>
+               </div> 
+        </div>
+    </div>
+    <script src="script.js"></script>    
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rutik Gagare - Front-end web developer | Competitive Programmer</title>
+    <link rel="stylesheet" href="style.css">
+ 
+
+</head>
+
+<body>
+    <div id="preloader"></div>
+    <div class="container">
+        <div class="sidebar sidebargo">
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/intro.html">My Intro</a></li>
+                    <li><a href="/Connect.html">Connect</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+    
+        <div class="main"  id="change_mode">
+            
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="Light()">Light
+                </button>
+                <button type="button" class="toggle-btn" onclick="Dark()">Dark</button>
+            </div>
+
+            <div class="hamburger">
+                <img class="ham" src="ham.png" alt="" onclick="open_sidebar()">
+                <img class="cross" src="cross.png" alt="">
+            </div>
+
+            <div class="infoContainer">
+                <div class="devinfo">
+
+                    <div class="hello">Hi I am</div>
+                    <div class="name">Rutik Gagare</div>
+                    <div class="about"><span class="auto"></span></div>
+                    <div class="moreabout">I am pursuing my Bachelor's degree in Computer Engineering at D.Y Patil College Of Engineering Akurdi.</div>
+
+                    <div class="buttons">
+                        <a href="/CV.pdf"><button class="btn">Download CV</button></a>
+                        <a href="/contact.html" ><button class="btn">Contact Me</button></a>
+                    </div>
+                </div>
+
+                <div class="devpic">
+                    <img src="dev1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>  
+    <script src="script.js"></script>
+ 
+
+</body>
+</html>

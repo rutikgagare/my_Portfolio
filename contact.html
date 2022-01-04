@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rutik Gagare - Web Developer, Programmer</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar sidebargo">
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/intro.html">My Intro</a></li>
+                    <li><a href="/connect.html">Connect</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+    
+        <div class="main  medium_main" id="change_mode">
+
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="Light()">Light
+                </button>
+                <button type="button" class="toggle-btn" onclick="Dark()">Dark</button>
+            </div>
+
+            <div class="hamburger">
+                <img class="ham" src="ham.png" alt="" onclick="open_sidebar()">
+                <img class="cross" src="cross.png" alt="">
+            </div>
+            <div class="contactform">
+                <h1>Contact me for work / general enquiry</h1>
+                <form action="https://formspree.io/f/xoqrvwkn" method="post">
+
+                    <div class="mb-3">
+                        <label for="clientname" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="clientname" aria-describedby="emailHelp" name="Name" required>
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="clientemail" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="clientemail" aria-describedby="xyz@gmail.com" name="Email adress" required>
+                      <div id="emailHelp" class="form-text">We'll never share your email and phone with anyone else.</div>
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="clientphone" class="form-label">Phone</label>
+                      <input type="phone" class="form-control" id="clientphone" name="Contact Number" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="clientenquiry" class="form-label">Enquiry</label>
+                        <input type="text" class="form-control" id="clientenquiry" name="Enquiry" required>
+                    </div>
+                    
+                    <div class="mb-3" id="form-check">
+                      <input type="checkbox" class="form-check-input" id="isclient" name="Check">
+                      <label class="form-check-label" for="isclient">I want you to work on a project with me</label>
+                    </div>
+
+                    <button type="submit" class="btn btn-sm">Submit</button>
+                  </form>
+            </div>
+            
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+    
+    </script>  
+</body>
+</html>
